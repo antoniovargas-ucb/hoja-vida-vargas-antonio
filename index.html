@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoja de vida profesional de Ing. Antonio Alexander Vargas Sosa - Ingeniero de Sistemas y Mecatrónico.">
+    <meta name="author" content="Ing. Antonio Alexander Vargas Sosa">
+    <title>Hoja de Vida - Ing. Antonio Alexander Vargas Sosa</title>
+</head>
+<body>
+
+    <!-- Enlace de accesibilidad A11y para saltar directamente al contenido principal -->
+    <a href="#contenido-principal">Saltar al contenido principal</a>
+
+    <!-- Modal Nativo HTML5 (<dialog>) para contacto rápido -->
+    <dialog id="modal-contacto" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+        <article>
+            <header>
+                <h3 id="dialog-title">Ficha Rápida de Contacto Profesional</h3>
+            </header>
+            <p id="dialog-desc">Información directa para oportunidades laborales, consultorías y docencia:</p>
+            <dl>
+                <dt><strong>Ingeniero:</strong></dt>
+                <dd>Antonio Alexander Vargas Sosa</dd>
+                <dt><strong>Correo electrónico:</strong></dt>
+                <dd><a href="mailto:antonio.vargas@ucb.edu.bo">antonio.vargas@ucb.edu.bo</a></dd>
+                <dt><strong>Teléfono / WhatsApp:</strong></dt>
+                <dd><a href="tel:+59168354642">+591 68354642</a></dd>
+                <dt><strong>Ubicación:</strong></dt>
+                <dd>La Paz, Bolivia</dd>
+            </dl>
+            <form method="dialog">
+                <button type="submit">Cerrar ventana emergente</button>
+            </form>
+        </article>
+    </dialog>
+
+    <!-- A. Encabezado personal -->
+    <header id="inicio">
+        <!-- Elemento <picture> para imágenes responsive adaptativas -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="assets/images/foto1.jpg">
+            <source media="(min-width: 601px)" srcset="assets/images/foto1.jpg">
+            <img src="assets/images/foto1.jpg" alt="Fotografía profesional de Ing. Antonio Alexander Vargas Sosa" width="220" height="220" loading="lazy">
+        </picture>
+
+        <h1>Ing. Antonio Alexander Vargas Sosa</h1>
+        <p>Ingeniero de Sistemas e Ingeniero Mecatrónico</p>
+        <p><em>"Los límites están hechos para romperse"</em></p>
+
+        <!-- Enlace de descarga de CV en formato PDF -->
+        <p>
+            <a href="assets/documents/CV_Antonio_Vargas.pdf" download="CV_Antonio_Vargas.pdf" title="Descargar Hoja de Vida en formato PDF">
+                📄 <strong>Descargar CV en formato PDF</strong>
+            </a>
+            |
+            <!-- Botón nativo para abrir el modal <dialog> -->
+            <button type="button" onclick="document.getElementById('modal-contacto').showModal()">
+                💬 Abrir Ficha Rápida
+            </button>
+        </p>
+
+        <address>
+            <strong>Ubicación:</strong> La Paz, Bolivia<br>
+            <strong>Correo electrónico:</strong> <a href="mailto:antonio.vargas@ucb.edu.bo">antonio.vargas@ucb.edu.bo</a><br>
+            <strong>Teléfono:</strong> <a href="tel:+59168354642">+591 68354642</a>
+        </address>
+    </header>
+
+    <hr>
+
+    <!-- Navegación interna mediante <nav> con enlaces de salto -->
+    <nav aria-label="Navegación principal del sitio">
+        <h2>Menú de navegación principal</h2>
+        <ul>
+            <li><a href="#perfil">Perfil profesional</a></li>
+            <li><a href="#formacion">Formación académica</a></li>
+            <li><a href="#experiencia">Experiencia profesional</a></li>
+            <li><a href="#habilidades">Habilidades técnicas</a></li>
+            <li><a href="#cursos">Certificaciones y cursos</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#proyectos">Proyectos destacados</a></li>
+            <li><a href="#multimedia">Portafolio multimedia</a></li>
+            <li><a href="#servicios">Servicios de docencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Elemento complementario lateral con Datos Rápidos y Lista de Descripción (<dl>) -->
+    <aside aria-label="Información complementaria y datos rápidos">
+        <h3>Datos rápidos de disponibilidad</h3>
+        <dl>
+            <dt><strong>Disponibilidad laboral:</strong></dt>
+            <dd>Inmediata / Tiempo completo o parcial</dd>
+            <dt><strong>Modalidad preferida:</strong></dt>
+            <dd>Presencial, Híbrida y Remota</dd>
+            <dt><strong>Abreviaturas de títulos:</strong></dt>
+            <dd><abbr title="Ingeniero">Ing.</abbr> en Sistemas e <abbr title="Ingeniero">Ing.</abbr> Mecatrónico</dd>
+            <dt><strong>Idiomas principales:</strong></dt>
+            <dd>Español (Nativo) e Inglés (Intermedio - B2)</dd>
+        </dl>
+    </aside>
+
+    <hr>
+
+    <main id="contenido-principal">
+
+        <!-- Elemento <progress> para representar el progreso profesional y grado de avance -->
+        <section id="progreso-profesional" aria-labelledby="progreso-heading">
+            <h2 id="progreso-heading">Avance de Grado Académico y Metas Profesionales</h2>
+            <article>
+                <h3>Licenciatura en Ingeniería de Sistemas (<abbr title="Universidad Católica Boliviana">UCB</abbr>)</h3>
+                <p>
+                    Progreso del plan de estudios completado: 
+                    <progress value="85" max="100">85%</progress> <strong>85%</strong>
+                </p>
+            </article>
+            <article>
+                <h3>Licenciatura en Ingeniería Mecatrónica (<abbr title="Universidad Católica Boliviana">UCB</abbr>)</h3>
+                <p>
+                    Progreso del plan de estudios completado: 
+                    <progress value="80" max="100">80%</progress> <strong>80%</strong>
+                </p>
+            </article>
+            <article>
+                <h3>Cumplimiento de Metas Anuales de Certificación y Proyectos 2026</h3>
+                <p>
+                    Avance de objetivos anuales: 
+                    <progress value="90" max="100">90%</progress> <strong>90%</strong>
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- B. Perfil profesional -->
+        <section id="perfil" aria-labelledby="perfil-heading">
+            <h2 id="perfil-heading">B. Perfil profesional</h2>
+            <article>
+                <h3>Presentación personal</h3>
+                <p>
+                    Soy un <mark>Ingeniero de Sistemas e Ingeniero Mecatrónico</mark> dedicado a la innovación tecnológica, la programación nativa y la automatización de procesos. Mi enfoque se centra en la excelencia técnica y el continuo crecimiento profesional.
+                </p>
+            </article>
+            <article>
+                <h3>Perfil profesional</h3>
+                <p>
+                    Poseo amplia experiencia en el <strong>desarrollo de software y soluciones web</strong>, administración de sistemas de almacenamiento e impartición de tutorías en ciencias exactas. Destaco por mi adhesión a <em>buenas prácticas de ingeniería de software, arquitectura limpia y desarrollo estructurado</em>.
+                </p>
+            </article>
+            <article>
+                <h3>Principales fortalezas</h3>
+                <p>
+                    Destaco por el dominio técnico de <strong>Python, C++, Java y tecnologías web nativas</strong>, capacidad analítica superior para la resolución de problemas dinámicos y liderazgo empático en la formación académica.
+                </p>
+            </article>
+            <article>
+                <h3>Objetivo profesional</h3>
+                <p>
+                    Mi objetivo es <mark>liderar y desarrollar soluciones tecnológicas de alto valor agregado</mark> que fusionen la ingeniería de sistemas informáticos y la mecatrónica para optimizar procesos empresariales y educativos.
+                </p>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- C. Formación académica -->
+        <section id="formacion" aria-labelledby="formacion-heading">
+            <h2 id="formacion-heading">C. Formación académica</h2>
+
+            <article>
+                <h3>Ingeniería de Sistemas</h3>
+                <p><strong>Institución:</strong> Universidad Católica Boliviana "San Pablo" (UCB)</p>
+                <p><strong>Grado obtenido:</strong> Licenciatura</p>
+                <p><strong>Periodo:</strong> <time datetime="2025">2025</time> - <time datetime="2029">2029</time></p>
+                
+                <!-- <details> y <summary> para desplegar contenido adicional -->
+                <details>
+                    <summary>Ver asignaturas destacadas y competencias académicas</summary>
+                    <ul>
+                        <li>Tecnologías Web I (Desarrollo Frontend, Accesibilidad A11y, Estándares W3C)</li>
+                        <li>Estructura de Datos y Algoritmos Avanzados (C++, Python)</li>
+                        <li>Sistemas Operativos y Redes de Computadoras</li>
+                        <li>Bases de Datos Relacionales y NoSQL</li>
+                    </ul>
+                </details>
+            </article>
+
+            <article>
+                <h3>Ingeniería Mecatrónica</h3>
+                <p><strong>Institución:</strong> Universidad Católica Boliviana "San Pablo" (UCB)</p>
+                <p><strong>Grado obtenido:</strong> Licenciatura</p>
+                <p><strong>Periodo:</strong> <time datetime="2029">2029</time> - <time datetime="2033">2033</time></p>
+                
+                <!-- <details> y <summary> para desplegar contenido adicional -->
+                <details>
+                    <summary>Ver asignaturas destacadas y competencias técnicas mecatrónicas</summary>
+                    <ul>
+                        <li>Automatización Industrial y Control Lógico Programable (PLC)</li>
+                        <li>Robótica Móvil y Sistemas Embebidos</li>
+                        <li>Diseño Mecánico Asistido por Computadora (CAD/CAM)</li>
+                        <li>Electrónica Analógica y Digital</li>
+                    </ul>
+                </details>
+            </article>
+
+            <article>
+                <h3>Educación Secundaria</h3>
+                <p><strong>Institución:</strong> Colegio San Calixto</p>
+                <p><strong>Grado obtenido:</strong> Diploma de Bachiller en Humanidades</p>
+                <p><strong>Periodo:</strong> <time datetime="2010">2010</time> - <time datetime="2021">2021</time></p>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- D. Experiencia profesional -->
+        <section id="experiencia" aria-labelledby="experiencia-heading">
+            <h2 id="experiencia-heading">D. Experiencia profesional</h2>
+
+            <article>
+                <h3>Tutor Académico en Nivelación Secundaria</h3>
+                <p><strong>Empresa / Institución:</strong> META</p>
+                <p><strong>Periodo:</strong> <time datetime="2023">2023</time> - <time datetime="2025">2025</time></p>
+                <p><strong>Descripción de funciones:</strong> Impartición de clases personalizadas de física y matemáticas, diseño de diagnósticos de aprendizaje y seguimiento continuo.</p>
+                <p><strong>Principales logros:</strong> Logró un incremento del 90% en la tasa de aprobación de los alumnos asignados mediante metodologías activas.</p>
+                
+                <!-- <details> y <summary> para desplegar contenido adicional -->
+                <details>
+                    <summary>Ver metodologías de enseñanza aplicadas</summary>
+                    <p>
+                        Diseño de guías didácticas, pruebas tipo <code>microevaluación</code> adaptativa y empleo de simulaciones interactivas para reforzar conceptos en matemáticas, física y química.
+                    </p>
+                </details>
+            </article>
+
+            <article>
+                <h3>Control de Almacenamiento e Inventarios</h3>
+                <p><strong>Empresa / Institución:</strong> SAMA</p>
+                <p><strong>Periodo:</strong> <time datetime="2029">2029</time> - <time datetime="2031">2031</time></p>
+                <p><strong>Descripción de funciones:</strong> Control informatizado de stock, registro de movimientos de almacén y auditoría de materiales tecnológicos.</p>
+                <p><strong>Principales logros:</strong> Reducción del 30% en los tiempos de búsqueda y localización de equipos mediante digitalización.</p>
+                
+                <!-- <details> y <summary> para desplegar contenido adicional -->
+                <details>
+                    <summary>Ver detalles de la auditoría y herramientas utilizadas</summary>
+                    <p>
+                        Implementación de códigos de barras, digitalización de kárdex en base de datos nativa y generación de reportes automáticos mediante scripts de Python.
+                    </p>
+                </details>
+            </article>
+
+            <article>
+                <h3>Desarrollador de Software Académico</h3>
+                <p><strong>Empresa / Institución:</strong> Proyectos UCB</p>
+                <p><strong>Periodo:</strong> <time datetime="2025">2025</time> - <time datetime="2026">2026</time></p>
+                <p><strong>Descripción de funciones:</strong> Creación de algoritmos de optimización y desarrollo de sistemas web nativos orientados a la gestión universitaria.</p>
+                <p><strong>Principales logros:</strong> Implementación exitosa de plataformas semánticas de alto rendimiento.</p>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- E. Habilidades técnicas -->
+        <section id="habilidades" aria-labelledby="habilidades-heading">
+            <h2 id="habilidades-heading">E. Habilidades técnicas</h2>
+
+            <article>
+                <h3>Lenguajes y Tecnologías (Nivel de Dominio con elemento &lt;meter&gt;)</h3>
+                <ul>
+                    <li>HTML5: <meter value="0.95" min="0" max="1" low="0.4" high="0.8" optimum="0.9">95%</meter> <strong>95%</strong> (Avanzado)</li>
+                    <li>CSS3: <meter value="0.85" min="0" max="1" low="0.4" high="0.8" optimum="0.9">85%</meter> <strong>85%</strong> (Avanzado)</li>
+                    <li>JavaScript: <meter value="0.80" min="0" max="1" low="0.4" high="0.8" optimum="0.9">80%</meter> <strong>80%</strong> (Intermedio-Avanzado)</li>
+                    <li>Python: <meter value="0.90" min="0" max="1" low="0.4" high="0.8" optimum="0.9">90%</meter> <strong>90%</strong> (Avanzado)</li>
+                    <li>C++: <meter value="0.85" min="0" max="1" low="0.4" high="0.8" optimum="0.9">85%</meter> <strong>85%</strong> (Avanzado)</li>
+                    <li>Arduino: <meter value="0.85" min="0" max="1" low="0.4" high="0.8" optimum="0.9">85%</meter> <strong>85%</strong> (Avanzado)</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Herramientas de Desarrollo</h3>
+                <ul>
+                    <li>Git y GitHub (Control de versiones)</li>
+                    <li>Visual Studio Code (Entorno de desarrollo principal)</li>
+                    <li>Linux / Entorno Bash (Comandos de consola: <kbd>ls -la</kbd>, <kbd>git status</kbd>)</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Habilidades Profesionales</h3>
+                <ul>
+                    <li>Resolución de problemas complejos y razonamiento analítico</li>
+                    <li>Liderazgo y comunicación efectiva en entornos educativos</li>
+                    <li>Trabajo en equipo y adaptabilidad metodológica</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Metodología de Trabajo en Proyectos</h3>
+                <ol>
+                    <li>Análisis de requerimientos del sistema y diseño de arquitectura.</li>
+                    <li>Desarrollo de software y aplicaciones web accesibles.</li>
+                    <li>Validación de estándares de accesibilidad y aseguramiento de calidad.</li>
+                    <li>Despliegue y optimización continua de rendimiento.</li>
+                </ol>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- F. Certificaciones y cursos -->
+        <section id="cursos" aria-labelledby="cursos-heading">
+            <h2 id="cursos-heading">F. Certificaciones y cursos</h2>
+            <ul>
+                <li>
+                    <strong>Curso:</strong> Programación Competitiva Nivel 3 (<time datetime="2019">2019</time>)
+                </li>
+                <li>
+                    <strong>Curso:</strong> Programación Competitiva Nivel 2 (<time datetime="2018">2018</time>)
+                </li>
+                <li>
+                    <strong>Taller:</strong> Taller de Robótica e Inteligencia Artificial - META (<time datetime="2024-06">Junio 2024</time>)
+                </li>
+                <li>
+                    <strong>Seminario:</strong> Seminario Internacional de Innovación en Mecatrónica y Sistemas (<time datetime="2024-10">Octubre 2024</time>)
+                </li>
+            </ul>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- G. Idiomas -->
+        <section id="idiomas" aria-labelledby="idiomas-heading">
+            <h2 id="idiomas-heading">G. Idiomas</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Nivel de dominio de idiomas de Ing. Antonio Vargas</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Idioma</th>
+                        <th scope="col">Lectura</th>
+                        <th scope="col">Escritura</th>
+                        <th scope="col">Conversación</th>
+                        <th scope="col">Nivel Escala &lt;meter&gt;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Español</th>
+                        <td>Avanzado</td>
+                        <td>Avanzado</td>
+                        <td>Nativo</td>
+                        <td><meter value="1.0" min="0" max="1" low="0.4" high="0.8" optimum="0.9">100%</meter> Nativo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Inglés</th>
+                        <td>Intermedio</td>
+                        <td>Intermedio</td>
+                        <td>Básico-Intermedio</td>
+                        <td><meter value="0.7" min="0" max="1" low="0.4" high="0.8" optimum="0.9">70%</meter> Intermedio</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"><em>Certificaciones de idioma disponibles a requerimiento.</em></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- H. Proyectos destacados -->
+        <section id="proyectos" aria-labelledby="proyectos-heading">
+            <h2 id="proyectos-heading">H. Proyectos destacados</h2>
+
+            <article>
+                <h3>TeoZen - Plataforma Académica</h3>
+                <p><strong>Descripción:</strong> Plataforma académica integral orientada a la gestión educativa, seguimiento pedagógico, evaluación continua y optimización de los procesos de aprendizaje para estudiantes y docentes.</p>
+                <p><strong>Tecnologías utilizadas:</strong> Python, JavaScript, HTML5, CSS3, bases de datos relacionales.</p>
+                <p><strong>Rol desempeñado:</strong> Líder de Proyecto y Desarrollador Full Stack.</p>
+                <p><strong>Resultado obtenido:</strong> Incremento comprobado del 90% en la tasa de retención y rendimiento de los estudiantes en programas formativos.</p>
+            </article>
+
+            <article>
+                <h3>Calxircuit - Software de Cálculo y Simulación de Circuitos</h3>
+                <p><strong>Descripción:</strong> Software especializado en el análisis computacional, cálculo matemático y simulación algorítmica de circuitos eléctricos y electrónicos.</p>
+                <p><strong>Tecnologías utilizadas:</strong> Python, librerías científicas de computación numérica, algoritmos de resolución circuital.</p>
+                <p><strong>Rol desempeñado:</strong> Desarrollador Principal e Investigador.</p>
+                <p><strong>Resultado obtenido:</strong> Proyecto seleccionado y presentado con distinción en el marco del <strong>Workshop 2024</strong>.</p>
+            </article>
+
+            <article>
+                <h3>Sistema de Control Informatizado de Inventarios</h3>
+                <p><strong>Descripción:</strong> Plataforma desarrollada para la gestión, auditoría y control de stock de insumos tecnológicos y equipamiento.</p>
+                <p><strong>Tecnologías utilizadas:</strong> HTML5, CSS3, JavaScript, Python.</p>
+                <p><strong>Rol desempeñado:</strong> Desarrollador Principal y Diseñador de Arquitectura de Datos.</p>
+                <p><strong>Resultado obtenido:</strong> Reducción del 30% en tiempos de consulta de inventario y cero pérdidas de registros en pruebas piloto.</p>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- I. Portafolio multimedia -->
+        <section id="multimedia" aria-labelledby="multimedia-heading">
+            <h2 id="multimedia-heading">I. Portafolio multimedia</h2>
+
+            <article>
+                <h3>Capturas y material gráfico adaptativo</h3>
+                <figure>
+                    <!-- Elemento <picture> responsive -->
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="assets/images/foto1.jpg">
+                        <source media="(min-width: 481px)" srcset="assets/images/foto1.jpg">
+                        <img src="assets/images/foto1.jpg" alt="Demostración visual de proyectos de desarrollo y soluciones de ingeniería" width="400" loading="lazy">
+                    </picture>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Presentación profesional en audio</h3>
+                <figure>
+                    <audio controls>
+                        <source src="assets/audio/audio1.m4a" type="audio/mp4">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Demostración de proyecto en video</h3>
+                <figure>
+                    <video controls width="480">
+                        <source src="assets/video/video1.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </figure>
+            </article>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- Servicio de docencia -->
+        <section id="servicios" aria-labelledby="servicios-heading">
+            <h2 id="servicios-heading">Servicio de docencia</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Tarifas y modalidades del servicio de docencia universitaria y secundaria</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Ubicación</th>
+                        <th scope="col">Precio/hora</th>
+                        <th scope="col">Registro de Apuntes</th>
+                        <th scope="col">Diagnóstico</th>
+                        <th scope="col">Micropruebas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Virtual</th>
+                        <td><em>35</em> Bs.</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Universidad</th>
+                        <td><em>53</em> Bs.</td>
+                        <td>No</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Domicilio</th>
+                        <td><em>70</em> Bs.</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                        <td>Sí</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+            <!-- <details> y <summary> para desplegar contenido adicional -->
+            <details>
+                <summary>Ver política de clases, requisitos y garantía de aprendizaje</summary>
+                <p>
+                    Las clases incluyen material digital en formato PDF, soporte asincrónico por correo institucional y simulacros de exámen adaptativos.
+                </p>
+            </details>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- J. Contacto con validaciones nativas, fieldset/legend y datalist -->
+        <section id="contacto" aria-labelledby="contacto-heading">
+            <h2 id="contacto-heading">J. Contacto profesional</h2>
+
+            <!-- Sugerencias dinámicas nativas de autocompletado mediante <datalist> -->
+            <datalist id="ciudades-lista">
+                <option value="La Paz, Bolivia"></option>
+                <option value="El Alto, Bolivia"></option>
+                <option value="Cochabamba, Bolivia"></option>
+                <option value="Santa Cruz, Bolivia"></option>
+            </datalist>
+
+            <datalist id="materias-lista">
+                <option value="Programación y Desarrollo Web"></option>
+                <option value="Física Universitaria"></option>
+                <option value="Cálculo e Integrales"></option>
+                <option value="Automatización y Mecatrónica"></option>
+            </datalist>
+
+            <form id="registro" action="#" method="post">
+                <fieldset>
+                    <legend>Información personal del remitente</legend>
+                    <p>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="100" placeholder="Ej. Juan Pérez" aria-describedby="nombre-ayuda" autocomplete="name">
+                        <br><small id="nombre-ayuda">Ingrese su nombre y apellidos (mínimo 3 caracteres).</small>
+                    </p>
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required placeholder="correo@ejemplo.com" aria-describedby="correo-ayuda" autocomplete="email">
+                        <br><small id="correo-ayuda">Formato obligatorio: usuario@dominio.com</small>
+                    </p>
+                    <p>
+                        <label for="telefono">Número telefónico:</label><br>
+                        <input type="tel" id="telefono" name="telefono" required pattern="^\+?[0-9\s\-]{7,15}$" placeholder="+591 70000000" aria-describedby="telefono-ayuda" autocomplete="tel">
+                        <br><small id="telefono-ayuda">Formato: número de 7 a 15 dígitos con código de país opcional.</small>
+                    </p>
+                    <p>
+                        <label for="ciudad">Ciudad de origen / Ubicación:</label><br>
+                        <input type="text" id="ciudad" name="ciudad" list="ciudades-lista" placeholder="Escriba o seleccione su ciudad">
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Detalles de la solicitud o contratación</legend>
+                    <p>
+                        <label for="motivo">Motivo de contacto:</label><br>
+                        <select id="motivo" name="motivo" required>
+                            <option value="">-- Seleccione una opción --</option>
+                            <optgroup label="Oportunidades Laborales">
+                                <option value="laboral">Propuesta laboral (Tiempo completo)</option>
+                                <option value="consultoria">Consultoría mecatrónica / sistemas</option>
+                            </optgroup>
+                            <optgroup label="Servicios Académicos">
+                                <option value="docencia">Servicio de docencia / tutoría</option>
+                                <option value="investigacion">Colaboración en investigación</option>
+                            </optgroup>
+                            <optgroup label="Otros">
+                                <option value="otro">Otro motivo general</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="materia-interes">Asignatura o tema de interés:</label><br>
+                        <input type="text" id="materia-interes" name="materia-interes" list="materias-lista" placeholder="Ej. Programación y Desarrollo Web">
+                    </p>
+                    <p>
+                        <label for="fecha-contacto">Fecha estimada para la primera sesión / reunión:</label><br>
+                        <input type="date" id="fecha-contacto" name="fecha-contacto">
+                    </p>
+                    <p>
+                        <label for="urgencia">Nivel de prioridad / urgencia (1: Baja, 5: Inmediata):</label><br>
+                        <input type="range" id="urgencia" name="urgencia" min="1" max="5" value="3">
+                    </p>
+                    <p>
+                        <label for="mensaje">Mensaje o detalle de la consulta:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="50" required minlength="10" maxlength="500" placeholder="Escriba su consulta o mensaje detallado aquí..."></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="aceptacion" name="aceptacion" required>
+                        <label for="aceptacion">Acepto los términos de contacto y la política de privacidad y tratamiento de datos personales.</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <p>
+                    <button type="submit">Enviar formulario de contacto</button>
+                    <button type="reset">Limpiar campos del formulario</button>
+                </p>
+            </form>
+            <p><a href="#contenido-principal">⬆️ Volver al contenido principal</a></p>
+        </section>
+
+        <hr>
+
+        <!-- Cita destacada con <blockquote> y <cite> -->
+        <section aria-label="Cita inspiradora">
+            <blockquote>
+                <p>"Los límites están hechos para romperse"</p>
+                <footer>- <cite>Ing. Antonio Alexander Vargas Sosa</cite></footer>
+            </blockquote>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer id="pie-pagina">
+        <p>
+            <small>&copy; 2026 Ing. Antonio Alexander Vargas Sosa - Todos los derechos reservados.</small>
+        </p>
+        <p>
+            <a href="#contenido-principal">Volver al inicio del contenido principal</a> |
+            <a href="assets/documents/CV_Antonio_Vargas.pdf" download="CV_Antonio_Vargas.pdf">Descargar CV en PDF</a>
+        </p>
+    </footer>
+
+</body>
+</html>
